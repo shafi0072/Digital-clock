@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;  
+}
+body{
+    
+    background-image: url(00585a3568a0a7d.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+}
+.main{
+    background-color: #ccc;
+    color: black;
+    width: 400px;
+    margin: 100px auto;
+    height: 175px;
+    position: relative;
+    padding: 30px;
+    
+}
+.badge{
+    width: 96px;
+    background-color: #e66357;
+    color: white;
+    padding: 5px 10px;
+    font-family: sans-serif;
+    font-weight: bold;
+    margin: 0 auto;
+    text-align: center;
+    position: absolute;
+    top: -15px;
+    left: 35%;
+}
+.clock{
+    background-color: #ebebeb;  
+    text-align: center;
+    font-size: 47px;
+    height: 100%;
+    padding: 25px ;
+    font-family: 'Orbitron', sans-serif;
+}
