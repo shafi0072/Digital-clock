@@ -1,7 +1,7 @@
 
 function clock(){
 let fullDate = new Date();
-let hour = fullDate.getHours();
+let hour = fullDate.getHours()%12;
 let mins = fullDate.getMinutes();
 let sec = fullDate.getSeconds();
 
